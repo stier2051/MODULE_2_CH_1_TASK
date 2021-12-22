@@ -1,0 +1,95 @@
+body, p {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+input, select {
+  box-sizing: border-box;
+}
+
+.shadow {
+  box-shadow: 0 13px 98px rgb(0 0 0 / 24%);
+}
+
+form {
+  padding: 30px;
+}
+
+.form, .result {
+  width: 400px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+.form__content {
+  align-content: center;;
+}
+
+input, select {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gender input {
+  display: inline-block;
+  width: 20px;
+}
+
+.footballerList {
+  margin-top: 50px;
+  width: 400px;
+}
+
+.player {
+  padding: 10px;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.footballerList p {
+  font-weight: bold;
+  line-height: 1.4em;
+}
+
+.playerName {
+  font-weight: bold;
+  font-size: 24px;
+  color: green;
+}
+
+.club {
+  color: blue;
+}
+
+.salary {
+  color: red;
+}
+
+.btn {
+  text-decoration: none;
+  color: black;
+  background-color: palegreen;
+  padding: 5px 10px;
+  display: block;
+  width: 80px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
